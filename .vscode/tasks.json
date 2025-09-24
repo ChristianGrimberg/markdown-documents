@@ -1,0 +1,67 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Export ISPE GAMP 5 Computerized Systems",
+      "type": "shell",
+      "command": ". .vscode/extensions/docs-export.sh -gamp5",
+      "group": {
+				"kind": "build"
+			},
+      "presentation": {
+        "reveal": "silent"
+        ,"panel": "shared"
+      }
+    },
+    {
+      "label": "Export ISPE GAMP Infrastructure IT",
+      "type": "shell",
+      "command": ". .vscode/extensions/docs-export.sh -infra",
+      "group": {
+				"kind": "build"
+			},
+      "presentation": {
+        "reveal": "silent"
+        ,"panel": "shared"
+      }
+    },
+    {
+      "label": "Export ISPE GAMP Laboratory Systems",
+      "type": "shell",
+      "command": ". .vscode/extensions/docs-export.sh -lab",
+      "group": {
+				"kind": "build"
+			},
+      "presentation": {
+        "reveal": "silent"
+        ,"panel": "shared"
+      }
+    },
+    {
+      "label": "Export ISPE GAMP Records & Data Integrity",
+      "type": "shell",
+      "command": ". .vscode/extensions/docs-export.sh -data",
+      "group": {
+				"kind": "build"
+			},
+      "presentation": {
+        "reveal": "silent"
+        ,"panel": "shared"
+      }
+    },
+    {
+      "label": "Export FDA LIB 4317",
+      "type": "shell",
+      "command": ". .vscode/extensions/docs-export.sh -lib4317",
+      "group": {
+				"kind": "build"
+			},
+      "presentation": {
+        "reveal": "silent"
+        ,"panel": "shared"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+---
+geometry:
+  - left=20mm
+  - right=20mm
+  - top=20mm
+  - bottom=20mm
+papersize: a4
+#date: \today
+toc: true
+toc-title: 'Indice'
+toc-depth: 3
+#toc_float: true
+output:
+  pdf_document: default
+ascii: true
+numbersections: false
+autoEqnLabels: true
+#fontsize: 11pt
+dpi: 400
+documentclass: extarticle
+#subparagraph: false
+links-as-notes: false
+lot: false
+lof: false
+#listings-disable-line-numbers: false
+#listings-no-page-break: false
+disable-header-and-footer: false
+#link-citations: true
+linkcolor: 'blue'
+urlcolor: 'red'
+toccolor: 'black'
+header-includes: |
+  \usepackage{fancyhdr,pdflscape,float}
+  \pagestyle{fancy}
+  \fancyfoot[LE,RO]{}
+  \fancyhead[LE,RO]{}
+  \newcommand{\blandscape}{\begin{landscape}}
+  \newcommand{\elandscape}{\end{landscape}}
+  \let\origfigure\figure
+  \let\endorigfigure\endfigure
+  \renewenvironment{figure}[1][2]
+  { \expandafter\origfigure\expandafter[H] }
+  { \endorigfigure }
+---

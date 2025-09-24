@@ -1,0 +1,28 @@
+name: Markdown Validation
+
+# Controls when the workflow will run
+on:
+    workflow_dispatch:
+    push:
+      branches: [ main ]
+      paths:
+      - '**.md'
+      - '.markdownlint.json'
+      - 'config/**'
+      paths-igonore:
+      - '.github/**'
+      - '.devcontainer/**'
+      - '.vscode/**'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  lint:
+    name: Markdown Validation with Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: DavidAnson/markdownlint-cli2-action@v5
+      with:
+        globs: |
+          README.md
+          docs/**/*.md

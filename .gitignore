@@ -1,0 +1,32 @@
+# ======================
+# Operating System Files
+# ======================
+
+# OSX
+# ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+# =======
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore exported docs files
+*.pdf
+*.docx
+*.epub
+~$*
+
+# Ignore Draw.io temp files
+*.drawio.dtmp
+*.drawio.bkp
