@@ -1,5 +1,7 @@
 \newpage
 
+# EL LUGAR, de Carlos Gorostiza
+
 ## Personajes
 
 * Mario
@@ -14,7 +16,7 @@
 
 > Techo y tres paredes blancas. A la izquierda una puerta y a la derecha otra, las dos estrechas. De frente el agujero de una ventana regular de doble hoja, abierta a una pared gris. Ningún mueble ni objeto.
 
-### ACTO PRIMERO
+## ACTO PRIMERO
 
 > Entra Mario en la escena vacía. Después de abrir la puerta y mirar a su alrededor revisando el lugar, desaparece. Enseguida vuelve a aparecer con una caña de pescar y un cajoncito con el resto del equipo. Los deja y desaparece otra vez para volver a aparecer definitivamente cargado con dos valijas grandes. Las deja y cierra la puerta. Vuelve al centro de la escena, mira alrededor y ve la puerta de la derecha; la abre y espía adentro.
 > Después se acerca a la ventana, la abre y saca la cabeza para mirar afuera. Pero enseguida regresa al centro de la habitación, abre el cajoncito y saca un aparato de radio portátil. Lo enciende.
@@ -2618,7 +2620,7 @@ Es capaz de echarme, ¿vieron? ¡Es capaz de echarme\!
 
 ### TELÓN
 
-### ACTO SEGUNDO
+## ACTO SEGUNDO
 
 > Todos quietos en sus sitios menos Mario, que se pasea nervioso en su ámbito. Los golpes siguen mientras se levanta el telón. Silencio. Mario va hasta la puerta para confirmar que el que golpeaba se fue, pero los golpes reanudan.
 
