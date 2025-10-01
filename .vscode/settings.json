@@ -31,6 +31,5 @@
     },
     "markdown.styles": [
         ".vscode/extensions/markdown-styles.css"
-    ],
-    "hediet.vscode-drawio.theme": "Kennedy"
+    ]
 }
